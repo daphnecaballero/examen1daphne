@@ -1,0 +1,162 @@
+:root{
+	--color-negro: #1b1e20;
+	--color-texto:#666;
+	--color-subtitulos:#888;
+	--color-general:#5f727f;
+	--bg-gris: #f2f4c;
+	--bg-footer: #222528;
+	--color-border:#dfe5e8;
+}
+
+.section{
+	padding: 10%;
+}
+
+.titulo{
+	font-size:36px; 
+	font-weight:700;
+	text-align: center;
+	margin-bottom: 30px;
+	color: var(--color-negro);
+	text-transform: uppercase;
+}
+
+.titulo::after{
+	content: '';
+	display: block;
+	border-bottom: 4px solid #0498E2;
+	margin:20px auto;
+	width: 80px; 
+}
+.subtitulo{
+	color: var(--color-negro);
+	margin-top: 5%;
+	marging-bottom: 20px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+header{
+	background-color: #222431;
+	padding: 10px;
+}
+
+header img{
+	width: 13%;
+	text-transform: uppercase;
+	margin-left: 10px;
+	padding: 15px;
+}
+
+#hero{
+	background-image: url("../img/bg-hero.png");
+	color: #fff;
+	text-align: center;
+	background-position: top center;
+	padding: 15%;
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 700;
+}
+
+#about-us{
+	margin-bottom: 200px;
+	margin-top: 150px
+}
+
+
+#about-us h1{
+	color:#D3D3D3 !important;
+	font-size: 100px;
+	font-weight:700;
+}
+
+#about-us h5{ 
+margin-top: 12%;
+marging-bottom: 20px;
+text-align:center;
+text-transform: uppercase;
+}
+
+#about-us h3{
+	text-transform:uppercase;
+	font-weight: 700;
+}
+
+#about-us a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+#about-us p{
+	margin-bottom: 40px;
+}
+
+#about-us a{
+	margin-bottom: 40px;
+}
+
+#numeros{
+	background-image: url("../img/bg-counter.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	text-align: center;
+	padding: 100px
+}
+
+#numeros h4{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+#numeros i{
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.team-card{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 25px 30px;
+	border-radius: 0px;
+}
+
+.team-card img{
+	border-radius:100%;
+	margin-bottom: 25px;
+	border: 10px solid #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.team-card h4{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.team-card p{
+	color: #898989;
+	font-size: 16px;
+}
+#prefooter{
+	background-color: #222629;
+}
+
+#prefooter img{
+	margin-left: 450px;
+}
+
+footer{
+	background-color: #1A1E21;
+	color:#fff;
+	padding: 12px;
+	text-size: 5px;
+	text-align: center;
+	
+}
